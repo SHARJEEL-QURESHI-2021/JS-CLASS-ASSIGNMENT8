@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q;14</title>
+</head>
+
+<body>
+
+    <h1>Chp # String Method</h1>
+    <ul>
+        <li>
+            <a href="./Home.html" style="color: black; text-decoration: none;">Home</a>
+        </li>
+    </ul>
+    <script>
+        var bak = ["cake", "apple pie", "cookie", "chips", "patties"];
+        var a = bak.indexOf(prompt("Welcome to ABC bakery, what do you want to buy").toLowerCase());
+        if (a != -1) {
+            document.write(bak[a] + " " + " is " + "available" + " at index " + a + " " +
+                " in our bakery");
+        } else {
+            document.write("We are sorry." + " " + "this item" + " " + " is " + "not available" + " " +
+                " in our bakery")
+        }
+    </script>
+</body>
+
+</html>
